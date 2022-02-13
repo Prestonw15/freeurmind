@@ -1,0 +1,50 @@
+<div>
+
+<section class="Login">
+
+    <section class="row">
+        <h2 style="text-align: center;">Sign Up or Log In</h2>
+        <form id="Login">
+            <div class="col">
+                <input type="email" id="email" name="email" placeholder="email" required>
+                <input id="myInput" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required>
+             <p id="error"></p>
+                <input class="Checkbox" type="checkbox" onclick="myFunction()">Show Password
+             <button id="loginBtn" class="login-input" type="submit" >Login</button>
+                <div class="col">
+                <a href="#" class="btn">Forgot Password?</a>
+             </div>
+                </div>    
+        </form>
+        <form  id="signUp">
+         <div class="col">
+          <input type="email" id="signupEmail" name="email" placeholder="email" required>
+          <input id="signupPw" type="password" name="password" placeholder="password" required>
+          <p id="error"></p>
+          <input class="Checkbox" type="checkbox" onclick="myFunction()">Show Password
+          <button id="signupBtn" class="login-input" type="submit" >Sign Up</button>
+         </div>   
+        </form>
+    </section>
+</section>
+        <section class="Bottom-Login">
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="fb btn">
+                            <i class="bi bi-facebook"></i> Login with Facebook
+                        </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="Twitter btn">
+                            <i class="bi bi-twitter"></i> Login with Twitter
+                        </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="google btn">
+                            <i class="bi bi-google"></i> Login with Google+
+                        </a>
+                </div>
+            </div>
+
+        </section>
+        </div>

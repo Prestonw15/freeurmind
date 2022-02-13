@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en-us">
-{{#if loggedIn}}
+{{!-- {{#if loggedIn}} --}}
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -105,24 +105,24 @@
 </footer>
 </body>
 <script src="/javascript/Homepage.js"></script>
-{{else}}
+{{!-- {{else}}
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/Login.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Free Ur Mind</title>
-</head>
+</head> --}}
 <!--Learned Gradients from W3School-->
 
     <!--Start of Body-->
-    <body>
+    {{!-- <body>
 
-        <img src="/images/freeurmind.png" class="logo">
+        <img src="/images/freeurmind.png" class="logo"> --}}
 
     <!--Start of login or signup form-->
     <!--Read Course through W3 schools on how to set up login/sign up with attached socials-->
-<section class="Login">
+{{!-- <section class="Login">
     <section class="row">
         <h2 style="text-align: center;">Sign Up or Log In</h2>
         <form id="Login">
@@ -170,5 +170,5 @@
         </section>
     <script src="/javascript/login.js"></script>
     </body>
-    {{/if}}
+    {{/if}} --}}
 </html>
